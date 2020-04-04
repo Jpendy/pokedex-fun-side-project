@@ -37,7 +37,7 @@ export const pokedexArray = [
     
     {
         name: 'Bulbasaur',
-        image: 'https://lh3.googleusercontent.com/proxy/acBm0V6ma9oEayE-oahaIqh6GPEvjjomtvU2XMObc7JjGa_S_EZ0_CEsCUZiW6kvJzJttp0t1rvbvZXwHLJDzE7c3AK5QLhqfHq5iPrj19t6Tza38Q',
+        image: 'https://images2.wikia.nocookie.net/__cb20111221113429/bulbasaurfanon/images/4/43/Bulbasaur.png',
         type: 'Type: Grass'
     },
     

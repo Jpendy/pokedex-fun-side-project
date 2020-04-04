@@ -1,5 +1,6 @@
-main {
-    margin: 150px auto;
+#main-section{
+    margin: auto;
+    margin-bottom: 200px;
     width: 50%;
     text-align: center;
     border: 3px solid black;
@@ -9,4 +10,11 @@ main {
 img {
     height: 200px;
     width: 200px;
+}
+
+#top-section {
+    margin: 100px auto;
+    margin-bottom: 30px;
+    width: 50%;
+    text-align: center;
 }
