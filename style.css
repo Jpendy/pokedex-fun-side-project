@@ -1,9 +1,9 @@
-#main-section {
+main {
     margin: 150px auto;
     width: 50%;
     text-align: center;
     border: 3px solid black;
-    padding: 80px;
+    padding: 60px;
 }
 
 img {
