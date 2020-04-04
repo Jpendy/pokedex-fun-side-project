@@ -10,9 +10,27 @@ const Charmander = {
     type: 'Type: Fire'
 };
 
+const Charmeleon = {
+    name: 'Charmeleon',
+    image: 'https://img.pokemondb.net/artwork/large/charmeleon.jpg',
+    type: 'Fire'
+};
+
+const Charizard = {
+    name: 'Charizard',
+    image: 'https://vignette.wikia.nocookie.net/iso33private/images/9/95/Charizard.png/revision/latest/scale-to-width-down/340?cb=20170727171344',
+    type: 'Fire / Flying / Dragon'
+};
+
 const Squirtle = {
     name: 'Squirtle',
     image: 'https://2.bp.blogspot.com/-2W-zSozUe1Q/VR4IcZ7z9rI/AAAAAAAAAM4/M_dPUTPez8E/s1600/Squirtle.jpg',
+    type: 'Type: Water'
+};
+
+const Wartortle = {
+    name: 'Wartortle',
+    image: 'https://img.pokemondb.net/artwork/large/wartortle.jpg',
     type: 'Type: Water'
 };
 
@@ -28,29 +46,37 @@ const Pikachu = {
     type: 'Type: Electric'
 };
 
+const Pidgey = {
+    name: 'Pidgey',
+    image: 'https://vignette.wikia.nocookie.net/sonicpokemon/images/7/78/Pidgey_AG_anime.png/revision/latest/scale-to-width-down/340?cb=20130708224313',
+    type: 'Flying'
+};
+
 let pokemonIndex = 0;
 
-let pokedexArray = [Charmander, Squirtle, Bulbasaur, Pikachu];
+let pokedexArray = [Charmander, Charmeleon, Charizard, Squirtle, Wartortle, Bulbasaur, Pikachu, Pidgey];
 
 pokemonNameSpan.textContent = pokedexArray[pokemonIndex].name;
 image.src = pokedexArray[pokemonIndex].image;
 
 rightButton.addEventListener('click', () => {
-    pokemonIndex++;
-    pokemonNameSpan.textContent = pokedexArray[pokemonIndex].name;
-    image.src = pokedexArray[pokemonIndex].image;
-    pokemonTypeSpan.textContent = pokedexArray[pokemonIndex].type;
-    if (pokemonIndex > pokedexArray.length) {
-        rightButton.disabled = true;
+    if (pokemonIndex < pokedexArray.length - 1) {
+        pokemonIndex++;
+        pokemonNameSpan.textContent = pokedexArray[pokemonIndex].name;
+        image.src = pokedexArray[pokemonIndex].image;
+        pokemonTypeSpan.textContent = pokedexArray[pokemonIndex].type;
     }
 });
 
 
 leftButton.addEventListener('click', () => {
-    pokemonIndex--;
-    pokemonNameSpan.textContent = pokedexArray[pokemonIndex].name;
-    pokemonTypeSpan.textContent = pokedexArray[pokemonIndex].type;
-    image.src = pokedexArray[pokemonIndex].image;
+    if (pokemonIndex > 0) {
+        pokemonIndex--;
+        pokemonNameSpan.textContent = pokedexArray[pokemonIndex].name;
+        pokemonTypeSpan.textContent = pokedexArray[pokemonIndex].type;
+        image.src = pokedexArray[pokemonIndex].image;
 
+    }
 });
+
 
