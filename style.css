@@ -1,10 +1,13 @@
 #main-section{
     margin: auto;
     margin-bottom: 200px;
-    width: 50%;
+    width: 35%;
     text-align: center;
     border: 3px solid black;
-    padding: 60px;
+    padding: 30px;
+    background: -webkit-linear-gradient(deepskyblue, lightblue) ;
+
+
 }
 
 img {
@@ -13,8 +16,12 @@ img {
 }
 
 #top-section {
-    margin: 100px auto;
+    margin: 40px auto;
     margin-bottom: 30px;
     width: 50%;
     text-align: center;
+}
+
+label {
+    background: lightblue;
 }
