@@ -3,15 +3,19 @@
 }
 
 body {
-    overflow-anchor: inherit;
+    position: absolute;
+    
 }
 
 #main-section{
-    margin: 52px 311px ;
+    position: relative;
+    margin: 52px 312px ;
     height: 462px;
     width: 215px ;
+    right: 2px;
+    bottom: 10px;;
     text-align: center;
-    border: 2px ridge black;
+    border: 1px ridge black;
     padding: 30px;
     background: deepskyblue;
     background: -webkit-linear-gradient(lightblue, deepskyblue) ;
@@ -19,7 +23,6 @@ body {
     transform: rotate(4.26deg);
     font-family: monospace;
     font-size: 20px;
-    box-shadow: 2px 2px 4px 1px;
 
    /* border-top-left-radius: 84px 190px; */
 
@@ -36,14 +39,14 @@ img:hover {
     height: 170px;
     width: 170px;
 }
-
-#top-section {
+#top-section {    
     margin: 40px auto;
     margin-bottom: 30px;
     width: 50%;
     text-align: center;
     
 }
+
 
 label {
     position: relative;
@@ -56,7 +59,7 @@ label {
 #button-section {
     position: relative;
     left: 609px;
-    bottom: 82px;
+    bottom: 95px;
     transform: rotate(4deg);
 
 }
@@ -92,8 +95,8 @@ button:hover {
 
 #search-div {
     position: relative;
-    top: 167px;
-    left: 252px;
+    top: 156px;
+    left: 337px;
     transform: rotate(4.2deg);
     
 
