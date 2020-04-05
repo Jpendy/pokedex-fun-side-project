@@ -8,15 +8,19 @@ const pokemonTypeSpan = document.getElementById('pokemon-type');
 let searchInputSpan = document.getElementById('search-input');
 const searchButton = document.getElementById('search-button');
 
+//This makes the search button react to the enter key being clicked:
+document.getElementById('search-input').addEventListener('keyup', function(event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+        document.getElementById('search-button').click();
+    }
+});
+
+//This here is integral, need to set the index of the array:
 let pokemonIndex = 0;
-
-//let searchInput = titleCase(searchInputSpan.value);
-
-//searchInputSpan.value = titleCase(searchInputSpan.value);
 
 pokemonNameSpan.textContent = pokedexArray[pokemonIndex].name;
 image.src = pokedexArray[pokemonIndex].image;
-
 
 
 searchButton.addEventListener('click', () => {
