@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-anchor: inherit;
+}
+
 #main-section{
     margin: 52px 311px ;
     height: 462px;
@@ -9,6 +13,7 @@
     text-align: center;
     border: 2px solid black;
     padding: 30px;
+    background: deepskyblue;
     background: -webkit-linear-gradient(lightblue, deepskyblue) ;
     border-radius: 100px 0px 30px 30px;
     transform: rotate(4.26deg);
@@ -79,7 +84,7 @@ button {
 }
 
 button:hover {
-    background: lightgreen;
+    background: lime;
 }
 
 #search-div {
