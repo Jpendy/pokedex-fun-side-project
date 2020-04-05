@@ -2,7 +2,6 @@ import { pokedexArray } from './pokedexArray.js';
 
 //This makes it so the arrow keys don't scroll the window. Also disables spacebar..
 window.addEventListener('keydown', function(e) {
-    // space and arrow keys
     if ([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
         e.preventDefault();
     }
@@ -18,13 +17,14 @@ const searchButton = document.getElementById('search-button');
 
 
 
-
 //This here is integral, need to initialize the index (i) of the array. Have to do this
 // if you are not using a for loop to initialize it:
 let pokemonIndex = 0;
 
-pokemonNameSpan.textContent = pokedexArray[pokemonIndex].name;
+//here is the view state initialization:
 image.src = pokedexArray[pokemonIndex].image;
+pokemonNameSpan.textContent = pokedexArray[pokemonIndex].name;
+pokemonTypeSpan.textContent = pokedexArray[pokemonIndex].type;
 
 
 //Here are the two buttons.
@@ -42,6 +42,15 @@ leftButton.addEventListener('click', () => {
     if (pokemonIndex > 0) {
         pokemonIndex--;        
         upDate();        
+    }
+});
+
+document.addEventListener('keypress', (event) => {
+    let code = event.keyCode;
+    if (code === '39'){
+        //event.preventDefault();
+        document.getElementById('rightButton').click(); 
+        
     }
 });
 
@@ -74,6 +83,10 @@ document.getElementById('search-input').addEventListener('keyup', function(event
         document.getElementById('search-button').click();
     }
 });
+
+
+
+
 
 
 //This is the search function. nameKey represents an Input.value It takes in the search 
