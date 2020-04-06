@@ -3,7 +3,8 @@ export const pokedexArray = [
         name: 'Charmander',
         lowerName: 'charmander',
         image: 'https://giantbomb1.cbsistatic.com/uploads/square_medium/0/6087/2438704-1202149925_t.png',
-        type: 'Type: Fire'
+        type: 'Type: Fire',
+        description: 'The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely.'
     },
 
     {

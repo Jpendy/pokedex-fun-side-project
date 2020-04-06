@@ -25,7 +25,7 @@ let pokemonIndex = 0;
 image.src = pokedexArray[pokemonIndex].image;
 pokemonNameSpan.textContent = pokedexArray[pokemonIndex].name;
 pokemonTypeSpan.textContent = pokedexArray[pokemonIndex].type;
-
+descriptionSpan.textContent = pokedexArray[pokemonIndex].description;
 
 //Here are the two buttons.
 rightButton.addEventListener('click', () => {
@@ -66,6 +66,7 @@ searchButton.addEventListener('click', () => {
 //spans and images on the view. This part should be refactored into a function of its own.
     pokemonNameSpan.textContent = searchResult.name;
     pokemonTypeSpan.textContent = searchResult.type;
+    descriptionSpan.textContent = searchResult.description;
     image.src = searchResult.image;
     
 //This part is Integral. This updates the index of the array to match the updates of the
@@ -105,6 +106,7 @@ function search(nameKey, myArray){
 function upDate(){
     pokemonNameSpan.textContent = pokedexArray[pokemonIndex].name;
     pokemonTypeSpan.textContent = pokedexArray[pokemonIndex].type;
+    descriptionSpan.textContent = pokedexArray[pokemonIndex].description;
     image.src = pokedexArray[pokemonIndex].image;
 }
 
