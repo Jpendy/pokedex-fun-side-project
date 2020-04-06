@@ -191,4 +191,211 @@ export const pokedexArray = [
         description: "If the electrical sacs become excessively charged, Raichu plants its tail in the ground and discharges. Scorched patches of ground will be found near this Pokémon's nest."
     },
 
+    {
+        name: 'Ekans',
+        lowerName: 'ekans',
+        image: 'https://static.pokemonpets.com/images/monsters-images-300-300/23-Ekans.png',
+        type: 'Type: Poison',
+        description: 'Ekans curls itself up in a spiral while it rests. Assuming this position allows it to quickly respond to a threat from any direction with a glare from its upraised head.'
+    },
+
+    {
+        name: 'Arbok',
+        lowerName: 'arbok',
+        image: 'https://static.pokemonpets.com/images/monsters-images-800-800/24-Arbok.png',
+        type: 'Type: Poison',
+        description: 'This Pokémon is terrifically strong in order to constrict things with its body. It can even flatten steel oil drums. Once Arbok wraps its body around its foe, escaping its crunching embrace is impossible.'
+    },
+
+    {
+        name: 'Sandshrew',
+        lowerName: 'sandshrew',
+        image: 'https://static.pokemonpets.com/images/monsters-images-800-800/27-Sandshrew.png',
+        type: 'Type: Ground',
+        description: "Sandshrew's body is configured to absorb water without waste, enabling it to survive in an arid desert. This Pokémon curls up to protect itself from its enemies."
+    },
+
+    {
+        name: 'Sandslash',
+        lowerName: 'sandslash',
+        image: 'https://static.pokemonpets.com/images/monsters-images-800-800/28-Sandslash.png',
+        type: 'Type: Ground',
+        description: "Sandslash's body is covered by tough spikes, which are hardened sections of its hide. Once a year, the old spikes fall out, to be replaced with new spikes that grow out from beneath the old ones."
+    },
+
+    {
+        name: 'Nidoran♀',
+        lowerName: 'nidoran♀',
+        image: 'https://static.pokemonpets.com/images/monsters-images-300-300/29-Nidoran_F.png',
+        type: 'Type: Poison',
+        description: 'Nidoran♀ has barbs that secrete a powerful poison. They are thought to have developed as protection for this small-bodied Pokémon. When enraged, it releases a horrible toxin from its horn.'
+    },
+
+    {
+        name: 'Nidorina',
+        lowerName: 'nidorina',
+        image: 'https://static.pokemonpets.com/images/monsters-images-300-300/30-Nidorina.png',
+        type: 'Type: Poison',
+        description: 'When Nidorina are with their friends or family, they keep their barbs tucked away to prevent hurting each other. This Pokémon appears to become nervous if separated from the others.'
+    },
+
+    {
+        name: 'Nidoqueen',
+        lowerName: 'nidoqueen',
+        image: 'https://static.pokemonpets.com/images/monsters-images-300-300/31-Nidoqueen.png',
+        type: 'Type: Poison / Ground',
+        description: "Nidoqueen's body is encased in extremely hard scales. It is adept at sending foes flying with harsh tackles. This Pokémon is at its strongest when it is defending its young."
+    },
+
+    {
+        name: 'Nidoran♂',
+        lowerName: 'nidoran♂',
+        image: 'https://static.pokemonpets.com/images/monsters-images-300-300/2032-Shiny-Nidoran.png',
+        type: 'Type: Poison',
+        description: "Nidoran♂ has developed muscles for moving its ears. Thanks to them, the ears can be freely moved in any direction. Even the slightest sound does not escape this Pokémon's notice."
+    },
+
+    {
+        name: 'Nidorino',
+        lowerName: 'nidorino',
+        image: 'https://static.pokemonpets.com/images/monsters-images-300-300/33-Nidorino.png',
+        type: 'Type: Poison',
+        description: 'Nidorino has a horn that is harder than a diamond. If it senses a hostile presence, all the barbs on its back bristle up at once, and it challenges the foe with all its might.'
+    },
+
+    {
+        name: 'Nidoking',
+        lowerName: 'nidoking',
+        image: 'https://static.pokemonpets.com/images/monsters-images-300-300/34-Nidoking.png',
+        type: 'Type: Poison / Ground',
+        description: "Nidoking's thick tail packs enormously destructive power. With one swing, it can topple a metal transmission tower. Once this Pokémon goes on a rampage, there is no stopping it."
+    },
+
+    {
+        name: 'Clefairy',
+        lowerName: 'clefairy',
+        image: 'https://static.pokemonpets.com/images/monsters-images-300-300/35-Clefairy.png',
+        type: 'Type: Fairy',
+        description: 'On every night of a full moon, groups of this Pokémon come out to play. When dawn arrives, the tired Clefairy return to their quiet mountain retreats and go to sleep nestled up against each other.'
+    },
+
+    {
+        name: 'Clefable',
+        lowerName: 'clefable',
+        image: 'https://static.pokemonpets.com/images/monsters-images-300-300/36-Clefable.png',
+        type: 'Type: Fairy',
+        description: 'Clefable moves by skipping lightly as if it were flying using its wings. Its bouncy step lets it even walk on water. It is known to take strolls on lakes on quiet, moonlit nights.'
+    },
+
+    {
+        name: 'Vulpix',
+        lowerName: 'vulpix',
+        image: 'https://static.pokemonpets.com/images/monsters-images-800-800/37-Vulpix.png',
+        type: 'Type: Fire',
+        description: 'At the time of its birth, Vulpix has one white tail. The tail separates into six if this Pokémon receives plenty of love from its Trainer. The six tails become magnificently curled.'
+    },
+
+    {
+        name: 'Ninetales',
+        lowerName: 'ninetales',
+        image: 'https://static.pokemonpets.com/images/monsters-images-300-300/38-Ninetales.png',
+        type: 'Type: Fire',
+        description: "Ninetales casts a sinister light from its bright red eyes to gain total control over its foe's mind. This Pokémon is said to live for a thousand years."
+    },
+
+    {
+        name: 'Jigglypuff',
+        lowerName: 'jigglypuff',
+        image: 'https://static.pokemonpets.com/images/monsters-images-300-300/39-Jigglypuff.png',
+        type: 'Type: Normal / Fairy',
+        description: "Jigglypuff's vocal cords can freely adjust the wavelength of its voice. This Pokémon uses this ability to sing at precisely the right wavelength to make its foes most drowsy."
+    },
+
+    {
+        name: 'Wigglytuff',
+        lowerName: 'wigglytuff',
+        image: 'https://static.pokemonpets.com/images/monsters-images-300-300/40-Wigglytuff.png',
+        type: 'Type: Normal / Fairy',
+        description: "Wigglytuff has large, saucerlike eyes. The surfaces of its eyes are always covered with a thin layer of tears. If any dust gets in this Pokémon's eyes, it is quickly washed away."
+    },
+
+    {
+        name: 'Zubat',
+        lowerName: 'zubat',
+        image: 'https://static.pokemonpets.com/images/monsters-images-800-800/2041-Shiny-Zubat.png',
+        type: 'Type: Poison / Flying',
+        description: 'Zubat remains quietly unmoving in a dark spot during the bright daylight hours. It does so because prolonged exposure to the sun causes its body to become slightly burned.'
+    },
+
+    {
+        name: 'Golbat',
+        lowerName: 'golbat',
+        image: 'https://static.pokemonpets.com/images/monsters-images-800-800/42-Golbat.png',
+        type: 'Type: Poison / Flying',
+        description: 'Golbat loves to drink the blood of living things. It is particularly active in the pitch black of night. This Pokémon flits around in the night skies, seeking fresh blood.'
+    },
+
+    {
+        name: 'Oddish',
+        lowerName: 'oddish',
+        image: 'https://static.pokemonpets.com/images/monsters-images-800-800/43-Oddish.png',
+        type: 'Type: Grass / Poison',
+        description: 'During the daytime, Oddish buries itself in soil to absorb nutrients from the ground using its entire body. The more fertile the soil, the glossier its leaves become.'
+    },
+
+    {
+        name: 'Gloom',
+        lowerName: 'gloom',
+        image: 'https://static.pokemonpets.com/images/monsters-images-300-300/44-Gloom.png',
+        type: 'Type: Grass / Poison',
+        description: 'Gloom releases a foul fragrance from the pistil of its flower. When faced with danger, the stench worsens. If this Pokémon is feeling calm and secure, it does not release its usual stinky aroma.'
+    },
+
+    {
+        name: 'Vileplume',
+        lowerName: 'vileplume',
+        image: 'https://static.pokemonpets.com/images/monsters-images-800-800/45-Vileplume.png',
+        type: 'Type: Grass / Poison',
+        description: "Vileplume's toxic pollen triggers atrocious allergy attacks. That's why it is advisable never to approach any attractive flowers in a jungle, however pretty they may be."
+    },
+
+    {
+        name: 'Paras',
+        lowerName: 'paras',
+        image: 'https://static.pokemonpets.com/images/monsters-images-300-300/2046-Shiny-Paras.png',
+        type: 'Type: Bug / Grass',
+        description: 'Paras has parasitic mushrooms growing on its back called tochukaso. They grow large by drawing nutrients from this Bug Pokémon host. They are highly valued as a medicine for extending life.'
+    },
+
+    {
+        name: 'Parasect',
+        lowerName: 'parasect',
+        image: 'https://static.pokemonpets.com/images/monsters-images-300-300/47-Parasect.png',
+        type: 'Type: Bug / Grass',
+        description: 'Parasect is known to infest large trees en masse and drain nutrients from the lower trunk and roots. When an infested tree dies, they move onto another tree all at once.'
+    },
+
+    {
+        name: 'Venonat',
+        lowerName: 'venonat',
+        image: 'https://static.pokemonpets.com/images/monsters-images-800-800/48-Venonat.png',
+        type: 'Type: Bug / Poison',
+        description: 'Venonat is said to have evolved with a coat of thin, stiff hair that covers its entire body for protection. It possesses large eyes that never fail to spot even minuscule prey.'
+    },
+
+    {
+        name: 'Venomoth',
+        lowerName: 'venomoth',
+        image: 'https://static.pokemonpets.com/images/monsters-images-300-300/49-Venomoth.png',
+        type: 'Type: Bug / Poison',
+        description: 'Venomoth is nocturnal—it is a Pokémon that only becomes active at night. Its favorite prey are small insects that gather around streetlights, attracted by the light in the darkness.'
+    },
+
+    {
+        name: 'Diglett',
+        lowerName: 'diglett',
+        image: 'https://static.pokemonpets.com/images/monsters-images-800-800/50-Diglett.png',
+        type: 'Type: Ground',
+        description: 'Diglett are raised in most farms. The reason is simple— wherever this Pokémon burrows, the soil is left perfectly tilled for planting crops. This soil is made ideal for growing delicious vegetables.'
+    }
 ];
