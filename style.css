@@ -95,9 +95,11 @@ button:hover {
 
 #search-div {
     position: relative;
+
     top: 156px;
     left: 337px;
     transform: rotate(4.2deg);
+
     
 
 }
@@ -106,4 +108,16 @@ input {
     width: 180px;
     height: 25px;
     border-radius: 5px;
+}
+
+p {
+    position: absolute;
+    width: 225px;
+    height: 70px;
+    left: 97px;
+    top:15px;
+    color: white;
+    font-family: monospace;
+    overflow-y: scroll;
+
 }

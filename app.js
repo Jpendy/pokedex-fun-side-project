@@ -12,9 +12,9 @@ const leftButton = document.getElementById('leftButton');
 const rightButton = document.getElementById('rightButton');
 const pokemonNameSpan = document.getElementById('pokemon-name');
 const pokemonTypeSpan = document.getElementById('pokemon-type');
-let searchInputSpan = document.getElementById('search-input');
+let searchInput = document.getElementById('search-input');
 const searchButton = document.getElementById('search-button');
-
+const descriptionSpan = document.getElementById('description');
 
 
 //This here is integral, need to initialize the index (i) of the array. Have to do this
@@ -60,7 +60,7 @@ searchButton.addEventListener('click', () => {
 
 //Here we put the input.value and the array in as parameters, and it returns the
 //array[i] index that we desire. that is returned and contained in the variable searchResult:
-    let searchResult = search(searchInputSpan.value, pokedexArray);
+    let searchResult = search(searchInput.value, pokedexArray);
 
 //This part uses the index held by searchResult to update all the relevant
 //spans and images on the view. This part should be refactored into a function of its own.
