@@ -43,7 +43,7 @@ export const pokedexArray = [
         name: 'Blastoise',
         lowerName: 'blastoise',
         image: 'https://vignette.wikia.nocookie.net/monster/images/2/26/Blastoise_RG.png/revision/latest/scale-to-width-down/340?cb=20170806105613',
-        type: 'type: Water',
+        type: 'Type: Water',
         description: 'Blastoise has water spouts that protrude from its shell. The water spouts are very accurate. They can shoot bullets of water with enough accuracy to strike empty cans from a distance of over 160 feet.'
     },
     

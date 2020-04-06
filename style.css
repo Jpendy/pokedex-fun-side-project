@@ -19,12 +19,12 @@ body {
     padding: 30px;
     background: deepskyblue;
     background: -webkit-linear-gradient(lightblue, deepskyblue) ;
-    border-radius: 100px 0px 30px 30px;
+    border-radius: 112px 0px 30px 30px;
     transform: rotate(4.26deg);
     font-family: monospace;
     font-size: 20px;
 
-    border-top-left-radius: 84px 170px; 
+    /*border-top-left-radius: 84px 170px; */
 
 }
 

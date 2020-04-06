@@ -2,7 +2,7 @@ import { pokedexArray } from './pokedexArray.js';
 
 //This makes it so the arrow keys don't scroll the window. Also disables spacebar..
 window.addEventListener('keydown', function(e) {
-    if ([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
+    if ([37, 38, 39, 40].indexOf(e.keyCode) > -1) {
         e.preventDefault();
     }
 }, false);
@@ -95,7 +95,7 @@ document.getElementById('search-input').addEventListener('keyup', function(event
 //If it does it returns the array index:
 function search(nameKey, myArray){
     for (let i = 0; i < myArray.length; i++){
-        if (myArray[i].name === nameKey || myArray[i].lowerName === nameKey) {
+        if (myArray[i].name === nameKey || myArray[i].lowerName === nameKey || myArray[i].type === nameKey) {
             return myArray[i];
         }   
     }   
