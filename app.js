@@ -12,7 +12,7 @@ const leftButton = document.getElementById('leftButton');
 const rightButton = document.getElementById('rightButton');
 const pokemonNameSpan = document.getElementById('pokemon-name');
 const pokemonTypeSpan = document.getElementById('pokemon-type');
-let searchInput = document.getElementById('search-input');
+const searchInput = document.getElementById('search-input');
 const searchButton = document.getElementById('search-button');
 const descriptionSpan = document.getElementById('description');
 
@@ -45,12 +45,11 @@ leftButton.addEventListener('click', () => {
     }
 });
 
-document.addEventListener('keypress', (event) => {
+document.addEventListener('keypress', event => {
     let code = event.keyCode;
     if (code === '39'){
-        //event.preventDefault();
-        document.getElementById('rightButton').click(); 
-        
+      
+        rightButton.click();
     }
 });
 
@@ -60,7 +59,7 @@ searchButton.addEventListener('click', () => {
 
 //Here we put the input.value and the array in as parameters, and it returns the
 //array[i] index that we desire. that is returned and contained in the variable searchResult:
-    let searchResult = search(searchInput.value, pokedexArray);
+    const searchResult = search(searchInput.value, pokedexArray);
 
 //This part uses the index held by searchResult to update all the relevant
 //spans and images on the view. This part should be refactored into a function of its own.
@@ -71,17 +70,15 @@ searchButton.addEventListener('click', () => {
     
 //This part is Integral. This updates the index of the array to match the updates of the
 // key value pairs we just did above. Without this the view will be updated but the index won't.  
-    let searchIndex = pokedexArray.indexOf(searchResult);
-    pokemonIndex = searchIndex;
-    return pokemonIndex;
+    pokemonIndex = pokedexArray.indexOf(searchResult);
 });
 
 
 //This makes the search button react to the enter key being pressed:
-document.getElementById('search-input').addEventListener('keyup', function(event) {
+searchInput.addEventListener('keyup', event => {
     event.preventDefault();
     if (event.keyCode === 13) {
-        document.getElementById('search-button').click();
+        searchButton.click();
     }
 });
 
@@ -93,12 +90,17 @@ document.getElementById('search-input').addEventListener('keyup', function(event
 //This is the search function. nameKey represents an Input.value It takes in the search 
 //from the input.value and check to  see if it matches the value in the array key. 
 //If it does it returns the array index:
+
+// function search(nameKey, myArray){
+//     for (let i = 0; i < myArray.length; i++){
+//         if (myArray[i].name === nameKey || myArray[i].lowerName === nameKey || myArray[i].type === nameKey) {
+//             return myArray[i];
+//         }   
+//     }   
+// }
+
 function search(nameKey, myArray){
-    for (let i = 0; i < myArray.length; i++){
-        if (myArray[i].name === nameKey || myArray[i].lowerName === nameKey || myArray[i].type === nameKey) {
-            return myArray[i];
-        }   
-    }   
+    return myArray.find(item => item.lowerName === nameKey.toLowerCase());
 }
 
 
